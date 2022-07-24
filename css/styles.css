@@ -209,10 +209,16 @@ body {
   margin-right: 30px;
 }
 .benefits-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
+
   margin-bottom: 30px;
-  padding: 25px 100px;
+  
+  
 }
 
 .benefits-type-title {
@@ -293,13 +299,16 @@ body {
   justify-content: center;
   gap: 10px;
 }
-
+.social-list-item{
+  width: 44px;
+  height: 44px;
+}
 .social-list-link{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: var(--primary-background-color);
   color: #AFB1B8;
@@ -324,16 +333,18 @@ body {
 }
 .client-item{
   flex-basis: calc((100% - 150px)/6);
+  height: 92px;
 }
 .client-item:not(:last-child) {
   margin-right: 30px;}
 
 .client-link{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: var(--color-link-icon);
-  padding-top: 16px;
-  padding-bottom: 16px;
   border: 1px solid var(--color-link-icon);
 border-radius: 4px;
 }
@@ -412,7 +423,7 @@ text-transform: uppercase;
 color:var(--color-logo-footer) ;
 margin-bottom: 20px;
 }
-.background-color{
+.social-list-bg-color{
   color: var(--color-button);
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -442,7 +453,7 @@ margin-bottom: 20px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.16;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -459,6 +470,7 @@ margin-bottom: 20px;
 .filter-button:focus {
   color: var(--color-button);
   background-color: var(--background-color-button);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .gallery {
