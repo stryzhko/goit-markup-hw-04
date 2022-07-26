@@ -148,6 +148,8 @@ body {
   background-color: var(--background-color-hero);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/bg_img.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
@@ -349,7 +351,7 @@ body {
 border-radius: 4px;
 }
 .client-link:hover,
-.clientlink:focus{
+.client-link:focus{
   color: var(--accent-color-link);
   border: 1px solid var(--accent-color-link);
 }
@@ -402,18 +404,14 @@ border-radius: 4px;
   color: var(--accent-color-link);
 }
 
-.contact-social-list-link{
-
-}
 .contact-wrapper{
   display: flex;
+  align-items: baseline;
 }
 .adress-wrapper{
   margin-right: 70px;
 }
-.contact-social-wrapper{
-  padding-top: 12px;
-}
+
 .contact-social-title{
   font-weight: 700;
 font-size: 14px;
